@@ -1,9 +1,16 @@
-const theOneFunc = () => {};
+// first attempt, thought I had to only code in theOneFunc scope
+const theOneFunc = () => {
+  console.log("Hello");
+  setTimeout(() => console.log("Hello"), 4 * 1000);
+};
 
 setTimeout(theOneFunc, 4 * 1000);
 
-// Hello after 4 seconds
+// second attempt knowing I can go outside func scope
 
-// Hello after 8 seconds
+const theOnlyFunc = () => {
+  console.log("Yo");
+}
 
-// You can define only ONE function
+setTimeout(theOnlyFunc, 4 * 1000);
+setTimeout(theOnlyFunc, 8 * 1000);
