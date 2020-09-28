@@ -1,6 +1,6 @@
-const print = require('frame-print');
+const framePrint = require('jaworsfold-frame-print');
 
-print('Hello NPM!');
+framePrint('Hello NPM!', '*');
 
 /*
 Expected Output:

@@ -1,0 +1,11 @@
+{
+  "name": "jaworsfold-frame-print",
+  "version": "1.0.0",
+  "description": "getting started with node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joe Worsfold",
+  "license": "ISC"
+}
